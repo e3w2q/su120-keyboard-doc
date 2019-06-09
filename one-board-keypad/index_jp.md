@@ -1,6 +1,6 @@
 # SU120で作るOne Board Keypad
 
-![switch_attached](switch_attached.jpg)
+![keycap_attached](keycap_attached.jpg)
 
 ## 必要なパーツ
 <!--- Bill Of Materials -->

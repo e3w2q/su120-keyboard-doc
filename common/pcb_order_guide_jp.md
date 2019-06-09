@@ -1,9 +1,9 @@
-# PCBの入手方法
+# SU120のPCB入手方法
 
 ## Elecrowへ発注する場合
 https://www.elecrow.com/pcb-manufacturing.html
 
-ガーバーファイルは[su120-gerber-elecrow.zip](../../su120-gerber-elecrow.zip)を使用します。
+ガーバーファイルは[su120-gerber-elecrow.zip](https://github.com/e3w2q/su120-keyboard/blob/master/su120-gerber-elecrow.zip?raw=true)を使用します。
 
 寸法は100×100mmです。
 
@@ -11,13 +11,13 @@ https://www.elecrow.com/pcb-manufacturing.html
 
 レジスト色はお好みの色を選択してください。
 
-![Elecrow画面](elecrow.png)
+![Elecrow](elecrow.png?raw=true)
 
 
 ## FusionPCBへ発注する場合
 https://www.fusionpcb.jp/prototype-pcb-sale.html
 
-ガーバーファイルは[su120-gerber.zip](../../su120-gerber.zip)を使用します。
+ガーバーファイルは[su120-gerber.zip](https://github.com/e3w2q/su120-keyboard/blob/master/su120-gerber.zip?raw=true)を使用します。
 
 寸法は100×100mmです。
 
@@ -25,6 +25,6 @@ https://www.fusionpcb.jp/prototype-pcb-sale.html
 
 レジスト色はお好みの色を選択してください。
 
-![FusionPCB画面](fusionpcb.png)
+![FusionPCB](fusionpcb.png?raw=true)
 
 
