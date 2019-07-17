@@ -1,28 +1,30 @@
-# 3x10 ortholinear keyboard
+# 34 key split ortholinear keyboard
 
-![sasami30](image/sasami30.jpg)
+![momo34](image/momo34.jpg)
 
 ## 必要なパーツ
 | 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
 |:-|:-|:-|--|--|
 | SU120 PCB | 2枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online store](https://www.elecrow.com/) | 10枚で1,400円($12.94) |
-| Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 290円($2.66) |
-| タクトスイッチ 2本足のもの | 1個 | | https://www.amazon.co.jp/dp/B00QLTSZK6 | 50個で184円 |
-| ダイオード 1N4148 | 30個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://www.amazon.co.jp/dp/B06WWJ76D7 | 500個で313円 |
-| LEDテープ お好みの長さ | 1本 | WS2812Bを使用したもの | https://www.aliexpress.com/item/32682015405.html | 1mで500円($4.57) |
-| Kailh PCBソケット CherryMX用 または Choc用 | 30個 | | https://yushakobo.jp/shop/a01ps/ | 450円+送料300円 |
-| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 30個 |  | https://yushakobo.jp/product-category/switches/ | 1200円～ |
-| キーキャップ CherryMX用 または Choc用 | 30個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 40個で670円($6.20～) |
-| クッションゴム | 6個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
-| M1.4ネジ 3.5mm長 | 2本 |  | https://www.aliexpress.com/item/32995302870.html | 100本で110円($0.99) |
+| Pro Micro | 2個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 580円($5.32) |
+| タクトスイッチ 2本足のもの | 2個 | | https://www.amazon.co.jp/dp/B00QLTSZK6 | 50個で184円 |
+| 3.5mm4極ミニジャック | 2個 | 秋月電子型番:MJ-4PP-9<br>マルツ型番:GB-35J-4CW-BM<br>AliExpress:PJ-320A | https://ja.aliexpress.com/item/32874772300.html | 10個で110円($0.99) |
+| ダイオード 1N4148 | 34個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://www.amazon.co.jp/dp/B06WWJ76D7 | 500個で313円 |
+| Kailh PCBソケット CherryMX用 または Choc用 | 34個 | | https://yushakobo.jp/shop/a01ps/ | 40個で600円+送料300円 |
+| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 34個 |  | https://yushakobo.jp/product-category/switches/ | 40個で1600円～ |
+| キーキャップ CherryMX用 または Choc用 | 34個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 40個で680円～($12.40～) |
+| クッションゴム | 8個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
 | Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 108円 |
-| 計 |  |  |  | 5,633円 |
+| TRRSケーブル | 1本 | AUXオーディオ接続コード | ダイソー | 108円 |
+| 計 |  |  |  | 6,091円                 |
 
 ## 使用する道具、消耗品
 
 [使用する道具、消耗品](../common/tool_guide_jp.md)を参照ください。
 
 ## ビルドガイド
+
+以下の作業は、右手側と左手側の両方の基板に対して行います。
 
 ### Pro Microのもげ防止加工
 
@@ -51,7 +53,7 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 最終的に上の図のようにカットします。
 
-まず基板端のビスケットをニッパーで切断します。切ってよい場所は印を付けているので、印の付いているところだけ切断してください。
+まず基板端のビスケットをニッパーで切断します。印の付いているところだけ切断してください。
 
 ![biscuits_cut](../common/image/biscuits_cut.jpg)
 
@@ -65,10 +67,6 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![cut_line_2](../common/image/cut_line_2.jpg)
 
-最後に、L字型に切断します。ハンドソーで青いラインを切ったあと、赤いラインにニッパーで切れ目を入れて折り割ってください。
-
-![cut_l_shape](image/cut_l_shape.jpg)
-
 ### 基板側面のヤスリがけ
 
 机に紙ヤスリを置き、その上で基板の側面をヤスリがけします。粗目だけでもそこそこきれいになります。お好みで細目までかけてもよいです。
@@ -79,35 +77,9 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![sand_pcb3](../common/image/sand_pcb3.jpg)
 
-### 基板の結合
-
-M1.4ネジとビスケットで基板を結合させます。ネジ頭とビスケットが干渉しないように、基板の裏からネジ止めします。
-
-![connect_pcb](../common/image/connect_pcb.jpg)
-
-基板の表面のネジ先をハンダ付けすると多少強度が上がります。
-
-![solder_screw_hole](../common/image/solder_screw_hole.jpg)
-
-続けて基板間の回路を接続します。接続する場所は以下の3箇所です。
-
-![connect_circuit](image/connect_circuit.jpg)
-
-ダイオードの足を切って、コの字に折り曲げます。
-
-![bend_wire](../common/image/bend_wire.jpg)
-
-基板間のROWと書かれたスルーホールをコの字に曲げた針金で繋ぎます。
-
-![connect_row](../common/image/connect_row.jpg)
-
-ハンダ付けして飛び出た部分を切ります。または飛び出た部分を切ってからハンダ付けします。
-
-![solder_row_wire](../common/image/solder_row_wire.jpg)
-
 ### ダイオードの取り付け
 
-各キースイッチの端の30箇所にダイオードを取り付けます。
+各キースイッチの端の17箇所×基板2枚にダイオードを取り付けます。
 
 キースイッチの枠が描いてあるほうが基板の表で、Kailh PCBソケットの枠が描いてあるほうが裏です。
 
@@ -118,9 +90,11 @@ M1.4ネジとビスケットで基板を結合させます。ネジ頭とビス�
 
 ダイオードの足は、指で根本付近を曲げます。はじめに1つだけダイオードを曲げて穴に差し込んでみて、うまくいく曲げ具合を確認して残りのダイオードを同じように曲げてください。
 
+ダイオードの黒くなっている側が、基板の図の二重線の側になるように差し込みます。
+
 ![diode_bent](../common/image/diode_bent.jpg)
 
-ダイオードの黒くなっている側が、基板の図の二重線の側になるように差し込みます。
+
 
 ![diode_inserted](../common/image/diode_inserted.jpg)
 
@@ -161,6 +135,14 @@ PCBソケット両端の金属部分をハンダ付けします。
 基板の表側からタクトスイッチをはめ込みます。
 
 ![reset_switch](../common/image/reset_switch.jpg)
+
+裏返してハンダ付けします。
+
+### ミニジャックの取り付け
+
+基板の表側から4極ミニジャックをはめ込みます。
+
+![trrs_jack](../common/image/trrs_jack.jpg)
 
 裏返してハンダ付けします。
 
@@ -214,9 +196,11 @@ PCBソケット両端の金属部分をハンダ付けします。
 用意されたキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
 
 ```
-make handwired/su120/rev1:sasami30:avrdude  
+make handwired/su120/rev1:sasami17:avrdude  
 ```
 
 **Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
 
-[KeyboardTester.com](https://www.keyboardtester.com/tester.html)等でキー入力が行えるかテストしてください。
+右手側、左手側の両方とも書き込みを行ってください。
+
+右手側と左手側をTRRSケーブルで繋ぎ、[KeyboardTester.com](https://www.keyboardtester.com/tester.html)等でキー入力が行えるかテストしてください。

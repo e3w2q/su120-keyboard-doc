@@ -11,6 +11,6 @@
 
 レジスト色はお好みの色を選択してください。
 
-![Elecrow](elecrow.png?raw=true)
+![Elecrow](image/elecrow.png?raw=true)
 
 

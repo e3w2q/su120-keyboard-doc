@@ -4,17 +4,17 @@
 
 ## 必要なパーツ
 <!--- Bill Of Materials -->
-| 名前 | 数 | 備考 | 
+| 名前 | 数 | 備考 |
 |:-|:-|:-|
 | SU120 PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) |
 | Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います |
 | タクトスイッチ 2本足のもの | 1個 | |
-| ダイオード 1N4148 | 19個 | 表面実装タイプも可 |
+| ダイオード 1N4148 | 20個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 |
 | LEDテープ お好みの長さ | 1本 | WS2812Bを使用したもの |
-| Kailh PCBソケット CherryMX用 または Choc用 | 19個 | |
-| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 19個 | トッププレートがないので3ピン仕様だとガタガタになります |
-| キーキャップ CherryMX用 または Choc用 | 19個 | 17個は1U、1個は1U～2.25U、1個は1U～2.75U |
-| スタビライザー PCBマウント用 2U | 2個 | 後で付けることも可能なので無いなら無いでOK |
+| Kailh PCBソケット CherryMX用 または Choc用 | 20個 | |
+| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 20個 | トッププレートがないので3ピン仕様だとガタガタになります |
+| キーキャップ CherryMX用 または Choc用 | 20個 | 19個は1U、1個は2U |
+| スタビライザー PCBマウント用 2U | 1個 | 後で付けることも可能なので無いなら無いでOK |
 | クッションゴム | 4個以上 | たわみが気になれば増やしてください 適当なものが見つからなければとりあえず100円ショップの滑り止めシートを敷いても |
 | Micro USBケーブル | 1本 | |
 
@@ -144,25 +144,27 @@ Pro Microとピンヘッダをハンダ付けします。
 
 ### ファームウェアの書き込み
 
-QMK Firmwareを使用する自作キーボードのファームウェアの書き込みには、いろいろな方法があります。
+自作キーボードでは主にQMK Firmwareが使われますが、この書き込みには、いろいろな方法があります。
 
-- GUIの[QMK Toolbox](https://github.com/qmk/qmk_toolbox)を使う
--- QMK Toolboxで用意されたファームウェアの中から該当するものを選択して書き込む
--- キット作者が用意したファームウェア（.hexファイル）をダウンロードして書き込む
--- [QMK Configurator](https://config.qmk.fm/)でキーマップをカスタマイズし、そのファームウェアをダウンロードして書き込む
-- CUIのQMK Firmwareのビルド環境を使う
--- キットが[QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれている
---- QMK Firmwareに用意されたファームウェアを書き込む
---- QMK Firmwareに用意されたファームウェアをカスタマイズして書き込む
--- キットが[QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれていない
---- キット作者がフォークしたQMK Firmwareに用意したファームウェアを書き込む
---- キット作者がフォークしたQMK Firmwareに用意したファームウェアをカスタマイズして書き込む
+- [QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれている
+  - GUIの[QMK Toolbox](https://github.com/qmk/qmk_toolbox)を使う
+  - CUIでQMK Firmwareをビルドして使う
+- [QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれていない
+  - 作者がフォークしたQMK FirmwareをCUIでQMK Firmwareをビルドして使う
 
-SU120は[QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれていないので、最後から2番目の方法を説明します。
+SU120は[QMK Firmware](https://github.com/qmk/qmk_firmware)本家に取り込まれていないので、最後の方法を説明します。
 
 まず、以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
 - [プログラマーではない人向けのQMK Firmware入門 - Qiita](https://qiita.com/cactusman/items/ac41993d1682c6d8a12e)
 - [Getting Started - QMK Firmware](https://docs.qmk.fm/#/newbs_getting_started)
 
-ビルド環境構築時に持ってくるQMK Firmwareは、フォークした[https://github.com/e3w2q/qmk_firmware/tree/su120](https://github.com/e3w2q/qmk_firmware/tree/su120)とします。または、本家を持ってきて、そこに[https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120](https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120)をコピーしてもよいです。
+ビルド環境構築時に持ってくるQMK Firmwareは、フォークした[https://github.com/e3w2q/qmk_firmware/tree/su120](https://github.com/e3w2q/qmk_firmware/tree/su120)とします。または、本家を持ってきて、そこに[https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120](https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120)以下をコピーしてもよいです。
+
+デフォルトキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
+
+```
+make handwired/su120/rev1:default:avrdude  
+```
+
+**Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
 

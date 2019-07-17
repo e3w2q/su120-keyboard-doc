@@ -12,7 +12,7 @@ The cost does not change between 5 and 10 sheets.
 
 Select your favorite color for resist color.
 
-![Elecrow](elecrow.png?raw=true)
+![Elecrow](image/elecrow.png?raw=true)
 
 
 
