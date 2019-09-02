@@ -196,7 +196,7 @@ PCBソケット両端の金属部分をハンダ付けします。
 用意されたキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
 
 ```
-make handwired/su120/rev1:sasami17:avrdude  
+make handwired/su120/rev1:momo34:avrdude  
 ```
 
 **Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
