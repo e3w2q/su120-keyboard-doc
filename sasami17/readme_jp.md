@@ -1,4 +1,4 @@
-# 15 key + 2 knob keypad
+# 15 key 2 knob keypad
 
 ![sasami17](image/sasami17-4.jpg)
 
