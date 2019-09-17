@@ -1,20 +1,32 @@
-# 17 key keypad
+# 15 key + 2 knob keypad
 
-![sasami17](image/sasami17.jpg)
+![sasami17](image/sasami17-4.jpg)
 
 ## 必要なパーツ
 | 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
 |:-|:-|:-|--|--|
-| SU120 PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online store](https://www.elecrow.com/) | 10枚で1,400円($12.94) |
+| SU120 PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online Store](https://www.elecrow.com/pcb-manufacturing.html) | 10枚で1,400円($12.94) |
 | Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 290円($2.66) |
 | タクトスイッチ 2本足のもの | 1個 | | https://www.amazon.co.jp/dp/B00QLTSZK6 | 50個で184円 |
 | ダイオード 1N4148 | 17個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://www.amazon.co.jp/dp/B06WWJ76D7 | 500個で313円 |
-| Kailh PCBソケット CherryMX用 または Choc用 | 17個 | | https://yushakobo.jp/shop/a01ps/ | 20個で300円+送料300円 |
-| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 17個 |  | https://yushakobo.jp/product-category/switches/ | 20個で800円～ |
-| キーキャップ CherryMX用 または Choc用 | 17個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 20個で340円～($6.20～) |
+| Dシャフト（平軸） プッシュスイッチ付きロータリーエンコーダー | 2個 |  | https://ja.aliexpress.com/item/32835514781.html | 5個で230円($2.12) |
+| Dシャフト ロータリーエンコーダー用キャップ | 2個 |  | https://ja.aliexpress.com/item/4000111239246.html | 10個で110円($1.01) |
+| Kailh PCBソケット CherryMX用 または Choc用 | 15個 | | https://yushakobo.jp/shop/a01ps/ | 20個で300円+送料300円 |
+| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 15個 |  | https://yushakobo.jp/product-category/switches/ | 20個で800円～ |
+| キーキャップ CherryMX用 または Choc用 | 15個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 20個で340円～($6.20～) |
 | クッションゴム | 4個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
 | Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 108円 |
-| 計 |  |  |  | 4,143円 |
+| 計 |  |  |  | 4,483円 |
+### オプション:トッププレートを付ける場合
+| 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
+|:-|:-|:-|--|--|
+| SU120 Plate PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online Store](https://www.elecrow.com/pcb-manufacturing.html) | 10枚で1,400円($12.94) |
+| M2ネジ 鍋ネジ ネジ長3mm | 8本 |  | https://ja.aliexpress.com/item/32948978177.html | 100本で85円($0.76) |
+| M2スペーサー オス-メス スペーサー長3mm | 4個 |  | https://ja.aliexpress.com/item/33022872348.html | 50個で95円($0.85) |
+| M2ナット | 4個 |  | https://ja.aliexpress.com/item/33022872348.html | 100個で65円($0.59) |
+| M2スペーサー メス-メス スペーサー長5mm | 2個 |  | https://ja.aliexpress.com/item/33022872348.html | 50個で95円($0.87) |
+| 計 |  |  |  | 1,675円 |
+
 
 ## 使用する道具、消耗品
 
@@ -45,27 +57,17 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ### 基板のカット
 
-![pcb_cut](image/pcb_cut.jpg)
+下の図のように、ニッパーで切っていきます。トッププレートを付けない場合は左側のみです。
 
-最終的に上の図のようにカットします。
+![pcb_cut](image/pcb_cut-2.jpg)
 
-まず基板端のビスケットをニッパーで切断します。印の付いているところだけ切断してください。
-
-![biscuits_cut](../common/image/biscuits_cut.jpg)
-
-次に、不要な行を切断します。
-
-![cut_row](image/cut_row.jpg)
-
-行ごと切断するには、ニッパーで表裏に切れ目を入れてから机の端などで折り割ってください。
+ニッパーで表裏に切れ目を入れてから手で折り割ってください。
 
 ![cut_line_1](../common/image/cut_line_1.jpg)
 
-![cut_line_2](../common/image/cut_line_2.jpg)
-
 ### 基板側面のヤスリがけ
 
-机に紙ヤスリを置き、その上で基板の側面をヤスリがけします。粗目だけでもそこそこきれいになります。お好みで細目までかけてもよいです。
+机に紙ヤスリを置き、その上で基板のバリがある側面をヤスリがけします。粗目だけでも結構きれいになります。お好みで細目までかけてもよいです。
 
 ![sand_pcb](../common/image/sand_pcb.jpg)
 
@@ -120,7 +122,7 @@ PCBソケット両端の金属部分をハンダ付けします。
 
 ![jumper](../common/image/jumper.jpg)
 
-ハンダを盛ってから間を繋ぐのですが、うまくいかない場合はダイオードの切れ端を使って繋いでも構いません。
+ハンダを盛ってから間を繋いでください。どうしてもうまくいかない場合はダイオードの切れ端を使って繋いでも構いません。
 
 ![jumper_wire](../common/image/jumper_wire.jpg)
 
@@ -146,11 +148,41 @@ PCBソケット両端の金属部分をハンダ付けします。
 
 **向きを間違えるとリカバリーが大変です。表裏、左右をよく確認してください。**
 
-ニッパーでピンヘッダの足を切ってからPro Microとピンヘッダをハンダ付けします。まず四隅をハンダ付けし、横から見てピンヘッダとの間に隙間があれば押さえながらハンダを温めて浮かないようにします。そのあと、順番に全てハンダ付けします。
+ニッパーでピンヘッダの足を切ってから、Pro Microとピンヘッダをハンダ付けします。まず四隅をハンダ付けし、横から見てピンヘッダとの間に隙間があれば押さえながらハンダを温めて浮かないようにします。そのあと、順番に全てハンダ付けします。
 
 ![pinheader_cut](../common/image/pinheader_cut.jpg)
 
 基板とピンヘッダはジグザグのスルーホールで接触しているため、ハンダ付けは不要です。
+
+### ロータリーエンコーダーの取り付け
+
+表側から差し込み、裏側をはんだ付けします。まずは対角の2箇所をハンダ付けし、傾いている場合はハンダを温めて傾きを解消してから残りの箇所をハンダ付けしてください。
+
+![rotary_encoder](../common/image/rotary_encoder.jpg)
+
+そのあと、ロータリーエンコーダーにキャップを取り付けます。
+
+### トッププレートの取り付け（オプション）
+
+外周から一つ内側の4箇所にM2スペーサー（オス-メス）を差し込み、裏側からM2ナットで留めます。
+
+![top_plate_attach_1](image/top_plate_attach_1.jpg)
+
+トッププレートを置き、M2ネジとスペーサーでトッププレートを挟んでネジ留めします。
+
+![top_plate_attach_2](image/top_plate_attach_2.jpg)
+
+### カバープレートの取り付け（オプション）
+
+Pro MicroのカバープレートをM2ネジとM2スペーサー5mmで挟んでネジ留めします。
+
+カバープレートは表と裏でデザインが違っているので、好きなほうを表面としてください。
+
+![cover_plate_attach_1](../common/image/cover_plate_attach_1.jpg)
+
+そのあと、基板裏からM2ネジでカバープレートを取り付けます。
+
+![cover_plate_attach_2](../common/image/cover_plate_attach_2.jpg)
 
 ### キースイッチの取り付け
 
@@ -163,7 +195,7 @@ PCBソケット両端の金属部分をハンダ付けします。
 
 キースイッチにキーキャップをはめます。
 
-![keycap_attach](image/keycap_attach.jpg)
+![keycap_attach_2](image/keycap_attach_2.jpg)
 
 ### ゴム足の取り付け
 
@@ -184,7 +216,7 @@ PCBソケット両端の金属部分をハンダ付けします。
 用意されたキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
 
 ```
-make handwired/su120/rev1:sasami17:avrdude  
+make handwired/su120/rev1_4knob:sasami17:avrdude  
 ```
 
 **Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
