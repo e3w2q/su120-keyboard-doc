@@ -110,7 +110,7 @@ staggerと書いてあるビスケットは、Row-Staggered、Column-Staggered�
 
 格子配列や近いところの接続であれば、ダイオードの足の切れ端を折り曲げてはんだ付けするのが楽です。
 
-![bend_wire](..\common\image\bend_wire.jpg)
+![bend_wire](../common/image/bend_wire.jpg)
 
 ![8](image/8.jpg)
 
