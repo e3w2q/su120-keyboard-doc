@@ -1,97 +1,81 @@
 [English](tool_guide.md) / [日本語](tool_guide_jp.md)
 
-# 使用する道具、消耗品
+# Tools and consumables
 
-## 調達製品例
+## Examples of procured products
 
-調達するとよいものの一覧です。解説は下にまとめて記載します。
+This is a list of items that should be procured. The commentary is summarized below.
 
-### 松コース
+| Tools, consumables | Product examples | Examples of suppliers | Reference prices |
+| ---- | ---- |  ---- |  ---- |
+| Soldering iron | White light dial type temperature control soldering iron FX600 | https://www.amazon.co.jp/dp/B006MQD7M4 | 3,900 yen |
+| Replacement iron tip | White light tip 2C type T18-C2 | https://www.amazon.co.jp/dp/B004OR7UBM | 478 yen |
+| Soldering iron stand | HAKOKO iron stand 633-01 | https://www.amazon.co.jp/dp/B000TGNWCS | 1,680 yen |
+| Solder blotter | Sanhayato Solder Shutaro NEO 45W type HSK-300 | https://www.amazon.co.jp/dp/B01FEV2BPG | 4,918 yen |
+| Nippers | Engineer Micro Nipper NS-04 | https://www.amazon.co.jp/dp/B000TGJSWG | 1,414 yen |
+| Precision screwdriver +0 | Engineer + Precision screwdriver set 6 DM-20 | https://www.amazon.co.jp/dp/B06XXXVPRY | 807 yen |
+| Tester | OHM (Ohm Electric) Digital Multi Tester TDB-401 (04-1891) | https://www.amazon.co.jp/dp/B001TVKWWU | 2,543 yen |
+| Solder | goot precision printed circuit board solder SD-62 | https://www.amazon.co.jp/dp/B0029LGAMA | 255 yen |
+| Equiposhi adhesive two-component mixed type | Cemedine 5 minutes curing epoxy adhesive High Super 5 P15g set CA-188 | https://www.amazon.co.jp/dp/B0036WHO0S | 566 yen |
+| Masking tape | Masking tape for 3M Scotch painting 18mm × 18m M40J-18 | https://www.amazon.co.jp/dp/B005JWNJZM | 95 yen |
+| Sandpaper | KAKURI Paper File MIX Set, 12 Sheets | https://www.amazon.co.jp/dp/B01ARIEU0A | 436 yen |
+| Total | | | 17,092 yen |
 
-| 道具、消耗品                 | 製品例                                                       | 調達先の例                             | 参考価格 |
-| ---------------------------- | ------------------------------------------------------------ | -------------------------------------- | -------- |
-| はんだこて                   | 白光 ダイヤル式温度制御はんだこて FX600                      | https://www.amazon.co.jp/dp/B006MQD7M4 | 3,956円  |
-| 交換用こて先                 | 白光 こて先 2C型 T18-C2                                      | https://www.amazon.co.jp/dp/B004OR7UBM | 648円    |
-| はんだこて台                 | 白光(HAKKO) こて台 633-01                                    | https://www.amazon.co.jp/dp/B000TGNWCS | 1,676円  |
-| はんだ吸取器                 | サンハヤト はんだシュッ太郎NEO 45Wタイプ HSK-300             | https://www.amazon.co.jp/dp/B01FEV2BPG | 4,928円  |
-| ニッパー                     | エンジニア マイクロニッパー NS-04                            | https://www.amazon.co.jp/dp/B000TGJSWG | 1,414円  |
-| 精密ドライバー +0番          | エンジニア +精密ドライバーセット 6本組 DM-20                 | https://www.amazon.co.jp/dp/B06XXXVPRY | 808円    |
-| テスター                     | OHM(オーム電機) デジタルマルチテスター TDB-401 (04-1891)     | https://www.amazon.co.jp/dp/B001TVKWWU | 2,543円  |
-| ハンダ                       | goot 精密プリント基板用はんだ SD-62                          | https://www.amazon.co.jp/dp/B0029LGAMA | 372円    |
-| エキポシ接着剤 2液混合タイプ | セメダイン 5分硬化型エポキシ系接着剤 ハイスーパー5 P15gセット CA-188 | https://www.amazon.co.jp/dp/B0036WHO0S | 556円    |
-| マスキングテープ             | 3M スコッチ 塗装用マスキングテープ 18mm×18m M40J-18          | https://www.amazon.co.jp/dp/B005JWNJZM | 378円    |
-| 紙やすり                     | KAKURI 紙ヤスリMIXセット 12枚入                              | https://www.amazon.co.jp/dp/B01ARIEU0A | 428円    |
-| 計                           |                                                              |                                        | 17,707円 |
+## Explanation
 
-### 梅コース
+### Soldering iron
 
-| 道具、消耗品                                         | 製品例                             | 調達先の例                             | 参考価格 |
-| ---------------------------------------------------- | ---------------------------------- | -------------------------------------- | -------- |
-| はんだこて、交換用こて先、はんだこて台、ハンダ吸取器 | Beneges 温度調整 はんだごて セット | https://www.amazon.co.jp/dp/B077P4GMZW | 2,289円  |
-| ニッパー                                             | エンジニア マイクロニッパー NS-04  | https://www.amazon.co.jp/dp/B000TGJSWG | 1,414円  |
-| 精密ドライバー +0番                                  | 精密ドライバーセット               | ダイソー                               | 108円    |
-| テスター                                             | Crenova デジタルマルチメーター     | https://www.amazon.co.jp/dp/B00KXX2OYY | 1,699円  |
-| ハンダ                                               | 電子工作用ハンダ（ヤニ入）         | ダイソー                               | 108円    |
-| エキポシ接着剤 2液混合タイプ                         | 強力接着剤 エキポシ2液混合タイプ   | ダイソー                               | 108円    |
-| マスキングテープ                                     |                                    | ダイソー                               | 108円    |
-| 紙やすり                                             | ホビー工作紙ヤスリ 6枚セット       | ダイソー                               | 108円    |
-| 計                                                   |                                    |                                        | 5,942円  |
+I do not recommend soldering irons from 100 yen shops.
 
-## 解説
+From [WEBはんだ付け講座 はじめに・・](https://noseseiki.com/kisokouza/01.html)
 
-### はんだこて
+> Currently, in Japan, soldering irons with no temperature control function are used by the majority of people who solder. These soldering irons have a too high tip temperature of 450-550 ° C. For this reason, most products soldered with this soldering iron will be overheated.
 
-はんだこては100円ショップのものはおすすめしません。
+If you don't have much soldering experience or have done it a long time ago, we strongly recommend that you prepare one with temperature control.
 
-[WEBはんだ付け講座 はじめに・・](https://noseseiki.com/kisokouza/01.html)より
+### Replacement tip
 
-> 現在、日本では趣味ではんだ付けされる方の大半が、温度調節機能のないハンダゴテを使用されています。こうしたハンダゴテはコテ先温度が450～550℃と高く上がりすぎます。このため、このハンダゴテを使ってはんだ付けしたものは、ほとんどがオーバーヒート状態になってしまいます。
+Since the conical shape attached to the soldering iron from the beginning hits the target and the point, it is difficult for heat to be transmitted, and solder may be placed due to insufficient heating, so replace it with the 2C tip and heat on the surface It is easy to do it if you can.
 
-ハンダ付けの経験があまりない、またはかなり前にやったという方は温度調整機能付きのものを用意されることを強くおすすめします。
+### Soldering iron stand
 
-### 交換先こて先
+Necessary for safely placing the soldering iron.
 
-はんだこてに最初から付いている円錐形のものは対象と点で当たるので熱が伝わりにくく、加熱不足ではんだを置いてしまうということがあるので、2Cのこて先に付け替え、面で加熱できるようにするとやりやすいです。
+### Solder blotter or wire
 
-### はんだこて台
+It is good to have it because it is not necessary when soldering fails.
 
-安全にはんだこてを置くために必要です。
+### Nipper
 
-### ハンダ吸取器または吸取線
+It is used for cutting board / biscuits, cutting diode legs / pin headers.
 
-ハンダ付けを失敗したときにないと困るので用意しておくとよいです。
+Nippers are not recommended for 100 yen shops for the following reasons.
 
-### ニッパー
+- Sharpness is not so good, and it is difficult to cut the diode feet and pin header.
+- Since the blade is not a sword, it cannot be cut
 
-基板・ビスケットの切り離し、ダイオードの足・ピンヘッダのカットに使います。
+### Tester
 
-ニッパーも100円ショップのものは以下の理由でおすすめしません。
+Necessary for problem isolation when keys cannot be entered.
 
-- 切れ味があまり良くなく、ダイオードの足やピンヘッダが切りにくい
-- 刃がツライチではないので、ギリギリに切れない
+All you need is a conduction mode.
 
-### テスター
+### Electronic work solder
 
-キーが入力できない場合の問題切り分けに必要です。
+Leaded type is easy to work with.
 
-導通モードがあればよいです。
+Since there are no particularly small parts used for SU120, even a 1mm one can work well, but 0.8mm seems to melt the solder easily.
 
-### 電子工作用ハンダ
+### Epoxy adhesive two-component mixed type
 
-有鉛タイプが作業しやすいです。
+Used for Pro Micro baldness prevention processing.
 
-SU120に使う部品に特段小さいものはないので1mmのものでも十分作業できますが、0.8mmだとはんだが溶けやすいようです。
+### Masking tape
 
-### エポキシ接着剤 2液混合タイプ
+It is used to fix parts when turning the board over by soldering.
 
-Pro Microのもげ防止加工に使います。
+## Web page for reference (Japanese)
 
-### マスキングテープ
+- [Helix キーボードキットの製作に必要な工具メモ - GitHub](https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849)
 
-ハンダ付けで基板を裏返す際に部品を固定しておくのに使います。
-
-## 参考になるWebページ
-
-[Helix キーボードキットの製作に必要な工具メモ - GitHub](https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849)
-
-[自作キーボードを作るために必要なもの - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/2018/11/24/自作キーボードを作るために必要なもの)
+- [自作キーボードを作るために必要なもの - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/2018/11/24/自作キーボードを作るために必要なもの)

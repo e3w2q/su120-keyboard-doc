@@ -1,7 +1,5 @@
 # 15 Key 2 Knob Keypad
 
-[English](readme.md)
-
 ![sasami17](image/sasami17-4.jpg)
 
 ## 必要なパーツ
