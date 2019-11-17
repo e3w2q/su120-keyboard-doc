@@ -1,3 +1,5 @@
+[English](pcb_order_guide.md) / [日本語](pcb_order_guide_jp.md)
+
 # PCB Order Guide
 
 ## When ordering from ELECROW

@@ -1,3 +1,5 @@
+[English](pcb_order_guide.md) / [日本語](pcb_order_guide_jp.md)
+
 # PCB入手方法
 
 ## ELECROWへ発注する場合

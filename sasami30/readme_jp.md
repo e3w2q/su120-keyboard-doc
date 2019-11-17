@@ -7,16 +7,18 @@
 |:-|:-|:-|--|--|
 | SU120 PCB | 2枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online store](https://www.elecrow.com/) | 10枚で1,400円($12.94) |
 | Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 290円($2.66) |
-| タクトスイッチ 2本足のもの | 1個 | | https://www.amazon.co.jp/dp/B00QLTSZK6 | 50個で184円 |
-| ダイオード 1N4148 | 30個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://www.amazon.co.jp/dp/B06WWJ76D7 | 500個で313円 |
-| LEDテープ お好みの長さ | 1本 | WS2812Bを使用したもの | https://www.aliexpress.com/item/32682015405.html | 1mで500円($4.57) |
-| Kailh PCBソケット CherryMX用 または Choc用 | 30個 | | https://yushakobo.jp/shop/a01ps/ | 450円+送料300円 |
-| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 30個 |  | https://yushakobo.jp/product-category/switches/ | 1200円～ |
+| タクトスイッチ 2本足のもの | 1個 | | https://ja.aliexpress.com/item/1068908059.html | 50個で100円($0.90) |
+| ダイオード 1N4148 | 30個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://ja.aliexpress.com/item/32729204179.html | 100個で90円($0.80) |
+| LEDテープ お好みの長さ | 1本 | WS2812Bを使用したもの　※アンダーグローを実装する場合に必要 | https://ja.aliexpress.com/item/32682015405.html | 1mで500円($4.57) |
+| Kailh PCBソケット CherryMX用 または Choc用 | 30個 | | https://yushakobo.jp/shop/a01ps/ | 495円+送料330円 |
+| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 30個 |  | https://yushakobo.jp/product-category/switches/ | 1320円～ |
 | キーキャップ CherryMX用 または Choc用 | 30個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 40個で670円($6.20～) |
-| クッションゴム | 6個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
-| M1.4ネジ 3.5mm長 | 2本 |  | https://www.aliexpress.com/item/32995302870.html | 100本で110円($0.99) |
-| Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 108円 |
-| 計 |  |  |  | 5,633円 |
+| クッションゴム | 6個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 110円 |
+| M1.4ネジ 5mm長 | 2本 |  | https://ja.aliexpress.com/item/32948746653.html | 100本で130円($1.27) |
+| M1.4ナット | 2個 | | https://ja.aliexpress.com/item/32883596896.html | 50本で190円($1.80) |
+| ポリウレタン銅線 |  | | https://ja.aliexpress.com/item/32628455799.html | 1mで100円($0.85) |
+| Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 110円 |
+| 計 |  |  |  | 5,835円 |
 
 ## 使用する道具、消耗品
 
@@ -59,13 +61,11 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![cut_row](image/cut_row.jpg)
 
-行ごと切断するには、ニッパーで表裏に切れ目を入れてから机の端などで折り割ってください。
+行ごと切断するには、ニッパーで表裏に切れ目を入れてから折り割ってください。
 
 ![cut_line_1](../common/image/cut_line_1.jpg)
 
-![cut_line_2](../common/image/cut_line_2.jpg)
-
-最後に、L字型に切断します。ハンドソーで青いラインを切ったあと、赤いラインにニッパーで切れ目を入れて折り割ってください。
+最後に、L字型に切断します。ニッパーで青と赤のラインに両面から切れ目を入れてねじるように折り割ってください。
 
 ![cut_l_shape](image/cut_l_shape.jpg)
 
@@ -111,16 +111,21 @@ M1.4ネジとビスケットで基板を結合させます。ネジ頭とビス�
 
 キースイッチの枠が描いてあるほうが基板の表で、Kailh PCBソケットの枠が描いてあるほうが裏です。
 
-ダイオードは、基板の表と裏、どちら側に付けても構いません。ただし、ロープロファイルスイッチで将来的にトッププレートを付けたい場合は、以下のいずれかを選択してください。
+ダイオードは、以下の理由で基板の裏に付けることを推奨します
 
-- 基板の裏側にダイオードを付け、表側に出た足をカットしてからハンダ付けする
-- 基板の裏側に表面実装ダイオードをハンダ付けする
+- スタビライザーを装着するキースイッチそばのダイオードを表側に付けるとスタビライザーと干渉する。
+
+- ロープロファイルスイッチでトッププレートを付けたい場合はダイオードを表側に付けると干渉する
+
+  は、ダイオードを裏側に取り付け、表側に出た足をカットしてからハンダ付けしてください。表面実装ダイオードを裏側にハンダ付けしてもいいです。
+
+なお、ロープロファイルスイッチでトッププレートを付けたい場合は、ダイオードの表側に出た足をカットしてからハンダ付けするか、表面実装ダイオードを裏面で使ってください。
 
 ダイオードの足は、指で根本付近を曲げます。はじめに1つだけダイオードを曲げて穴に差し込んでみて、うまくいく曲げ具合を確認して残りのダイオードを同じように曲げてください。
 
-![diode_bent](../common/image/diode_bent.jpg)
-
 ダイオードの黒くなっている側が、基板の図の二重線の側になるように差し込みます。
+
+![diode_bent](../common/image/diode_bent.jpg)
 
 ![diode_inserted](../common/image/diode_inserted.jpg)
 
@@ -141,6 +146,8 @@ CherryMX用のPCBソケットを置く場合は、間違った向きに置かな
 ![socket_attached_all](../common/image/socket_attached_all.jpg)
 
 PCBソケット両端の金属部分をハンダ付けします。
+
+ハンダ付け不良のリスクを減らすために、事前に片側のみハンダを盛る→ソケットを置いて、ハンダごてで押し付ける→反対側をはんだ付けする、という手順がおすすめです。
 
 ![socket_soldered](../common/image/socket_soldered.jpg)
 
@@ -163,6 +170,22 @@ PCBソケット両端の金属部分をハンダ付けします。
 ![reset_switch](../common/image/reset_switch.jpg)
 
 裏返してハンダ付けします。
+
+### 配線
+
+基板の裏側を以下の図のように配線します。
+
+![3x10wiring](image/3x10wiring.png)
+
+真ん中のROW同士の接続は、ダイオードの足の切れ端を折り曲げてはんだ付けします。
+
+![bend_wire](../common/image/bend_wire.jpg)
+
+![connect_row](../common/image/connect_row.jpg)
+
+それ以外の接続は、ポリウレタン銅線をハンダごてで加熱し、被膜を焼き切ってからはんだ付けします。下の写真はイメージなので、配線は上図のとおりに行ってください。
+
+![uew_wiring3](../custom-layout/image/uew_wiring3.jpg)
 
 ### Pro Microの取り付け
 
@@ -205,8 +228,7 @@ PCBソケット両端の金属部分をハンダ付けします。
 
 ### ファームウェアの書き込み
 
-まず、以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
-- [プログラマーではない人向けのQMK Firmware入門 - Qiita](https://qiita.com/cactusman/items/ac41993d1682c6d8a12e)
+以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
 - [Getting Started - QMK Firmware](https://docs.qmk.fm/#/newbs_getting_started)
 
 ビルド環境構築時に持ってくるQMK Firmwareは、フォークした[https://github.com/e3w2q/qmk_firmware/tree/su120](https://github.com/e3w2q/qmk_firmware/tree/su120)とします。または、本家を持ってきて、そこに[https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120](https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120)以下をコピーしてもよいです。
