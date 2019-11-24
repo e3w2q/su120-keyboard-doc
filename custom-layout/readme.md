@@ -16,7 +16,7 @@ Without a rotary encoder, up to 6 rows and 10 columns = 60 keys can be placed pe
 
 By connecting two Pro Micro with TRRS cable, it can be used as a split keyboard with 60 keys on one side and a total of 120 keys.
 
-![120key](image/120key.jpg)
+![momo120](../momo120/image/momo120.jpg)
 
 By wiring as DuplexMatrix, it is possible to use up to 240 times more keys, but I will omit the explanation here.
 

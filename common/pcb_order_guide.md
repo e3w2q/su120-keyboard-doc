@@ -6,11 +6,13 @@
 
 https://www.elecrow.com/pcb-manufacturing.html
 
-Use [su120-gerber.zip](https://github.com/e3w2q/su120-keyboard/blob/master/su120-gerber.zip?raw=true) as the gerber file.
+Use the required Gerber file to upload from the table below.
 
-The dimensions are 100 x 100 mm.
-
-The cost does not change between 5 and 10 sheets.
+| Overview                                 | URL                                                          | Dimensions  |
+| ---------------------------------------- | ------------------------------------------------------------ | ----------- |
+| PCB                                      | https://github.com/e3w2q/su120-keyboard/blob/master/pcb/su120-gerber.zip?raw=true | 99 x 99mm   |
+| General-purpose Top Plate                | https://github.com/e3w2q/su120-keyboard/blob/master/plate-pcb/su120-plate-gerber.zip?raw=true | 99 x 99mm   |
+| 120 Key Split Ortholinear Keyboard Plate | https://github.com/e3w2q/su120-keyboard/blob/master/plate120-pcb/su120-plate120-gerber.zip?raw=true | 133 x 190mm |
 
 Select your favorite color for resist color.
 
