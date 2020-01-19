@@ -9,6 +9,7 @@
 | SU120 120キー格子配列分割キーボード用プレート | 4枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online store](https://www.elecrow.com/) | 5枚で3,200円($29.78) |
 | Pro Micro | 2個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 580円($2.66×2) |
 | タクトスイッチ 2本足のもの | 2個 | | https://ja.aliexpress.com/item/1068908059.html | 50個で100円($0.90) |
+| 3.5mm4極ミニジャック | 2個 | 秋月電子型番:MJ-4PP-9<br>マルツ型番:GB-35J-4CW-BM<br>AliExpress:PJ-320A | https://ja.aliexpress.com/item/32874772300.html | 10個で110円($0.99) |
 | ダイオード 1N4148 | 120個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://ja.aliexpress.com/item/32729204179.html | 200個で180円($0.80×2) |
 | Kailh PCBソケット CherryMX用 または Choc用 | 120個 | | https://yushakobo.jp/shop/a01ps/ | 1,980円+送料330円 |
 | 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 120個 |  | https://yushakobo.jp/product-category/switches/ | 5,280円～ |
@@ -23,7 +24,7 @@
 | M2スペーサー6mm長 メス-メス | 4個 | メス-メス：両側にネジ穴が切ってあるもの | https://ja.aliexpress.com/item/33033691154.html | 50個で240円($2.20) |
 | Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 110円 |
 | TRRSケーブル | 1本 | AUXオーディオ接続コード | ダイソー | 110円 |
-| 計 |  |  |  | 19,450円 |
+| 計 |  |  |  | 19,560円 |
 
 ## 使用する道具、消耗品
 
