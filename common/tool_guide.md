@@ -77,5 +77,7 @@ It is used to fix parts when turning the board over by soldering.
 ## Web page for reference (Japanese)
 
 - [Helix キーボードキットの製作に必要な工具メモ - GitHub](https://gist.github.com/mtei/6957107a676ddfa85bde0ae41f8fa849)
-
 - [自作キーボードを作るために必要なもの - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/2018/11/24/自作キーボードを作るために必要なもの)
+- [自作キーボードの組み立てに使っている工具 | yfuku docs](https://yfuku.com/blog/keyboard/keybord_build_tool/)
+- [elephant42 の組み立てかた#工具の準備 · illness072/elephant42](https://github.com/illness072/elephant42/blob/master/docs/build-guide.md#%E5%B7%A5%E5%85%B7%E3%81%AE%E6%BA%96%E5%82%99)
+- [基礎からわかる！自キ入門講座 第8回「自作キーボードのつくりかた #2」 - YouTube](https://salicylic-acid3.hatenablog.com/entry/2018/11/24/自作キーボードを作るために必要なもの)

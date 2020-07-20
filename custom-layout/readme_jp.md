@@ -194,6 +194,18 @@ Pro Microの3という印字のスルーホール（青色の四角）と繋ぐ�
 
 ![6x10wiring](image/6x10wiring.png)
 
+## GNDのジャンパ
+
+Pro Microを1つしか使わない場合は実施しなくても問題ないのですが、分割キーボードとして使用する場合は、基板の裏側のジャンパ3箇所をハンダ付けします。**表側にもジャンパがありますが、裏側のジャンパのみハンダ付けします**。
+
+![jumper](../common/image/jumper.jpg)
+
+ハンダを盛ってから間を繋いでください。どうしてもうまくいかない場合はダイオードの切れ端を使って繋いでも構いません。
+
+![jumper_wire](../common/image/jumper_wire.jpg)
+
+![jumper_wire2](../common/image/jumper_wire2.jpg)
+
 ## ファームウェア
 
 以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
@@ -221,7 +233,7 @@ Pro Microの3という印字のスルーホール（青色の四角）と繋ぐ�
 
 テスト用のキーマップでは、入力したキーの論理的な配置（例えば1行目A列のキーなら「A1」）が入力されます。スレーブ側の入力は頭に「S」が付きます。ロータリーエンコーダーは回すと「1ST_ENC_R」「1ST_ENC_L」などが入力されます。
 
-[KeyboardTester.com](https://www.keyboardtester.com/tester.html)等を使わずに全キーの入力テストを行う際にご利用ください。
+[QMK Configuratorのテストモード](https://config.qmk.fm/#/test)を使わずに全キーの入力テストを行う際にご利用ください。
 
 - ロータリーエンコーダーなし
   ```

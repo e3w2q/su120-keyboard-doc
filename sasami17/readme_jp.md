@@ -2,35 +2,26 @@
 
 ![sasami17](image/sasami17-4.jpg)
 
-## 必要なパーツ
-| 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
-|:-|:-|:-|--|--|
-| SU120 PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online Store](https://www.elecrow.com/pcb-manufacturing.html) | 10枚で1,400円($12.94) |
-| Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 290円($2.66) |
-| タクトスイッチ 2本足のもの | 1個 | | https://ja.aliexpress.com/item/1068908059.html | 50個で100円($0.90) |
-| ダイオード 1N4148 | 17個 | ハンダ付けの難易度は上がりますが表面実装ダイオード(1N4148W)も可 | https://ja.aliexpress.com/item/32729204179.html | 100個で90円($0.80) |
-| Dシャフト（平軸） プッシュスイッチ付きロータリーエンコーダー | 2個 |  | https://ja.aliexpress.com/item/32835514781.html | 5個で230円($2.12) |
-| Dシャフト ロータリーエンコーダー用キャップ | 2個 |  | https://ja.aliexpress.com/item/4000111239246.html | 10個で110円($1.01) |
-| Kailh PCBソケット CherryMX用 または Choc用 | 15個 | | https://yushakobo.jp/shop/a01ps/ | 20個で330円+送料330円 |
-| 5ピン仕様のキースイッチ CherryMX用 または Choc用 | 15個 |  | https://yushakobo.jp/product-category/switches/ | 20個で880円～ |
-| キーキャップ CherryMX用 または Choc用 | 15個 |  | CherryMX用 https://ja.aliexpress.com/item/32851511530.html | 20個で340円～($6.20～) |
-| クッションゴム | 4個 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 110円 |
-| Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 110円 |
-| 計 |  |  |  | 4,320円 |
-### オプション:トッププレートを付ける場合
-| 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
-|:-|:-|:-|--|--|
-| SU120 Plate PCB | 1枚 | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online Store](https://www.elecrow.com/pcb-manufacturing.html) | 10枚で1,400円($12.94) |
-| M2ネジ 鍋ネジ ネジ長3mm | 8本 |  | https://ja.aliexpress.com/item/32948978177.html | 100本で85円($0.76) |
-| M2スペーサー オス-メス スペーサー長3mm | 4個 |  | https://ja.aliexpress.com/item/33022872348.html | 50個で95円($0.85) |
-| M2ナット | 4個 |  | https://ja.aliexpress.com/item/33022872348.html | 100個で65円($0.59) |
-| M2スペーサー メス-メス スペーサー長5mm | 2個 |  | https://ja.aliexpress.com/item/33022872348.html | 50個で95円($0.87) |
-| 計 |  |  |  | 1,675円 |
+[TOC]
 
+## 必要なパーツ
+
+| 名前 | 数 | 備考 | 調達先の例 | 参考価格（送料込） |
+|:-|:-|:-|--|--|
+| SU120 自作キーボード用基板（マクロパッドセット） | 1つ | リセットスイッチ1、ダイオード20、ゴム足4が含まれています | https://talpkeyboard.stores.jp/items/5e7eda9b2a9a4265048aed0f | 550円 |
+| Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | https://talpkeyboard.stores.jp/items/5b24504ba6e6ee7ec60063e3 | 550円 |
+| ロータリーエンコーダー（ツマミ付） | 2個 | ロータリーエンコーダーを付けない場合は不要です | https://talpkeyboard.stores.jp/items/5ecb804d55fa035d98011385 | 200円×2 |
+| Kailh PCBソケット MX用 または Choc用 | 15個 | Gateronのソケットはキースイッチの端子がちゃんと嵌まらなかったときに壊れやすいという情報がありますので、どちらかというとKailhをお勧めします | MX用 https://talpkeyboard.stores.jp/items/5e02c5405b120c792616bcf9 | 10個で150円×2 |
+| 5ピン仕様のキースイッチ MX用 または Choc用 | 15個 |  | MX用 https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d | 10個で450円～×2 |
+| キーキャップ MX用 または Choc用 | 15個 |  | MX用 https://talpkeyboard.stores.jp/?category_id=59e2acfaed05e644fd004008 | 2個で110円～×8 |
+| Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 110円 |
+| 計 |  |  |  | 3,990円（送料300円含む） |
+
+基板、パーツを個々に集める場合は[SU120 パーツリスト](../common/bom_list_jp.md)をご覧ください。
 
 ## 使用する道具、消耗品
 
-[使用する道具、消耗品](../common/tool_guide_jp.md)を参照ください。
+[使用する道具、消耗品](../common/tool_guide_jp.md)におすすめの道具類、注意事項等をまとめましたのでご覧ください。
 
 ## ビルドガイド
 
@@ -74,6 +65,20 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 ![sand_pcb2](../common/image/sand_pcb2.jpg)
 
 ![sand_pcb3](../common/image/sand_pcb3.jpg)
+
+### はんだ付けのイメージトレーニング
+
+はんだ付けに慣れている方は次の項に進んでください。
+
+全くはんだ付けをしたことがなかったり、数年ぶりにはんだ付けをする場合は、以下の動画が参考になります。
+
+[はんだ付けの詳細.m2p - YouTube](https://www.youtube.com/watch?v=ZA-ehWjRfYM)
+
+[リード型（アキシャル）抵抗のはんだ付けお手本（体験用基板を使用）効果音 - YouTube](https://www.youtube.com/watch?v=oq3Q3n57-B0)
+
+表面実装ダイオードを使う場合: [チップ抵抗のはんだ付けと、はんだ量の調整（体験用基板を使用） - YouTube](https://www.youtube.com/watch?v=vqKKElJ1vw0&feature=youtu.be)
+
+[基礎からわかる！自キ入門講座 第8回「自作キーボードのつくりかた #2」 - YouTube](https://www.youtube.com/watch?v=LOC53FeU-QM&t=999)
 
 ### ダイオードの取り付け
 
@@ -167,33 +172,15 @@ PCBソケット両端の金属部分をハンダ付けします。
 
 そのあと、ロータリーエンコーダーにキャップを取り付けます。
 
-### トッププレートの取り付け（オプション）
-
-外周から一つ内側の4箇所にM2スペーサー（オス-メス）を差し込み、裏側からM2ナットで留めます。
-
-![top_plate_attach_1](image/top_plate_attach_1.jpg)
-
-トッププレートを置き、M2ネジとスペーサーでトッププレートを挟んでネジ留めします。
-
-![top_plate_attach_2](image/top_plate_attach_2.jpg)
-
-### カバープレートの取り付け（オプション）
-
-Pro MicroのカバープレートをM2ネジとM2スペーサー5mmで挟んでネジ留めします。
-
-カバープレートは表と裏でデザインが違っているので、好きなほうを表面としてください。
-
-![cover_plate_attach_1](../common/image/cover_plate_attach_1.jpg)
-
-そのあと、基板裏からM2ネジでカバープレートを取り付けます。
-
-![cover_plate_attach_2](../common/image/cover_plate_attach_2.jpg)
-
 ### キースイッチの取り付け
 
 表側から差し込みます。キースイッチの足が曲がっている場合はまっすぐにしてから差し込んでください。
 
 ![switch_attach](../common/image/switch_attach.jpg)
+
+**キースイッチを嵌めるときに抵抗感を感じたら、キースイッチの足が曲がっていてきちんとソケットに入っていません。無理に押し込まず、一度外して足が曲がっていないか確認してください。**
+
+トッププレート無しの場合はこの感覚が分かりやすいのですが、トッププレートがあるとトッププレートへ差し込む際の抵抗とソケットに足が嵌らないときの抵抗感が似ていて分かりにくいです。ちょっとおかしいなと感じたら、無理に押し込まないで確認してみてください。
 
 
 ### キーキャップの取り付け
@@ -225,4 +212,54 @@ make handwired/su120/rev1_4knob:sasami17:avrdude
 
 **Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
 
-[KeyboardTester.com](https://www.keyboardtester.com/tester.html)等でキー入力が行えるかテストしてください。
+[QMK Configuratorのテストモード](https://config.qmk.fm/#/test)でキー入力が行えるかテストしてください。
+
+以前は[KeyboardTester.com](https://www.keyboardtester.com/tester.html)をお勧めしていましたが、[QMK Configuratorのテストモード](https://config.qmk.fm/#/test)のほうが見やすいです。
+
+
+
+## トラブルシューティング
+
+- 特定のキーが反応しない
+  - キースイッチの足がソケットにきちんと嵌っていない場合があります。一度キースイッチを外して、足がUの字に曲がっていないか確認してみてください。
+  - ソケットがきちんとはんだ付けされていないことがあります。親指と人差し指で、キースイッチとソケットを挟み込んでスイッチを強めに押し込んだら入力できる場合は、ソケットをはんだ付けし直してください。
+  - 可能性は低いですが、キースイッチ不良の場合もありえます。違うキースイッチに差し替えて入力できるか試してみてください。キースイッチの代わりにピンセットの先をソケットに入れてみて文字が入力されるか確認してみるのもよいでしょう。
+- 行、列単位でキーが反応しない
+  - Pro Microの足と基盤のZigzag穴とがうまく導通していない可能性があります。該当する行または列のPro Microの足を基盤のスルーホールの壁に押し付けた状態でキー入力ができるか試してください。この状態でキー入力ができる場合は、きちんと導通するようにPro Microの足が基盤の穴の壁に接するようにちょっと曲げてから差し込んでみてください。はんだ付けしてしまうのもよいです。
+
+## 補足:トッププレートを付ける場合
+
+キースイッチのぐらつきが気になる場合はトッププレートを付けるとよくなります。
+
+### 必要なパーツ
+
+| 名前                                   | 数   | 備考                                                | 調達先の例                                                   | 参考価格（送料込）    |
+| :------------------------------------- | :--- | :-------------------------------------------------- | ------------------------------------------------------------ | --------------------- |
+| SU120 Plate PCB                        | 1枚  | [入手方法はこちら](../common/pcb_order_guide_jp.md) | [Elecrow Online Store](https://www.elecrow.com/pcb-manufacturing.html) | 10枚で1,400円($12.94) |
+| M2ネジ 鍋ネジ ネジ長3mm                | 8本  |                                                     | https://ja.aliexpress.com/item/32948978177.html              | 100本で85円($0.76)    |
+| M2スペーサー オス-メス スペーサー長3mm | 4個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 50個で95円($0.85)     |
+| M2ナット                               | 4個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 100個で65円($0.59)    |
+| M2スペーサー メス-メス スペーサー長5mm | 2個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 50個で95円($0.87)     |
+| 計                                     |      |                                                     |                                                              | 1,675円               |
+
+### トッププレートの取り付け
+
+キースイッチを外し、外周から一つ内側の4箇所にM2スペーサー（オス-メス）を差し込み、裏側からM2ナットで留めます。
+
+![top_plate_attach_1](image/top_plate_attach_1.jpg)
+
+トッププレートを置き、M2ネジとスペーサーでトッププレートを挟んでネジ留めします。
+
+![top_plate_attach_2](image/top_plate_attach_2.jpg)
+
+### カバープレートの取り付け
+
+Pro MicroのカバープレートをM2ネジとM2スペーサー5mmで挟んでネジ留めします。
+
+カバープレートは表と裏でデザインが違っているので、好きなほうを表面としてください。
+
+![cover_plate_attach_1](../common/image/cover_plate_attach_1.jpg)
+
+そのあと、基板裏からM2ネジでカバープレートを取り付けます。
+
+![cover_plate_attach_2](../common/image/cover_plate_attach_2.jpg)
