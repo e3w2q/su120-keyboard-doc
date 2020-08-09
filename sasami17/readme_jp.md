@@ -231,14 +231,34 @@ PCBソケット両端の金属部分をハンダ付けします。
 ### ファームウェアの書き込み
 
 以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
-- [Getting Started - QMK Firmware](https://docs.qmk.fm/#/newbs_getting_started)
 
-ビルド環境構築時に持ってくるQMK Firmwareは、フォークした[https://github.com/e3w2q/qmk_firmware/tree/su120](https://github.com/e3w2q/qmk_firmware/tree/su120)とします。または、本家を持ってきて、そこに[https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120](https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120)以下をコピーしてもよいです。
+- Windows
+  - [QMKビルド環境の構築(Windows Msys2編)](https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a)
+- macOS
+  - [セットアップ - QMK Firmware](https://docs.qmk.fm/#/ja/newbs_getting_started?id=macos)
+- Linux
+  - [セットアップ - QMK Firmware](https://docs.qmk.fm/#/ja/newbs_getting_started?id=linux)
 
-用意されたキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
+構築中、
 
 ```
-make handwired/su120/rev1_4knob:sasami17:avrdude  
+qmk setup
+```
+
+と入力する代わりに
+
+```
+qmk setup e3w2q/qmk_firmware --branch e3w2q
+```
+
+と入力してください。
+
+または、`qmk setup`した後に、`C:\Users\USER_NAME\qmk_firmware\keyboards`配下に[https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q)以下をコピーしてもよいです。
+
+用意されたキーマップを書き込むには以下を実行します。
+
+```
+qmk flash -kb e3w2q/su120/rev1_4knob -km sasami15+2
 ```
 
 **Detecting USB port, reset your controller now...** と表示されたらPro Micro横にハンダ付けしたリセットスイッチを押すと書き込みが始まります。
