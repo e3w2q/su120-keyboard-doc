@@ -178,7 +178,7 @@ staggerと書いてあるビスケットは、Row-Staggered、Column-Staggered�
 
 Pro Microの3という印字のスルーホール（青色の四角）と繋ぐのは、3行目のスルーホール（青色のマル）のどれでも構いません。
 
-![connect_address](/image/connect_address.jpg)
+![connect_address](image/connect_address.jpg)
 
 ロータリーエンコーダー2つの場合、最大で6行6列なので右に1列（F列まで）、下は既存の4行目を折り割って、6行まで拡張可能です。これに必要な基板は3枚であり、例えば赤矢印の部分を結線します。
 
