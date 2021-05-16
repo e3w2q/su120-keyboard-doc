@@ -290,7 +290,7 @@ qmk flash -kb e3w2q/su120/rev1_4knob -km sasami15+2
 | M2ネジ 鍋ネジ ネジ長3mm                | 8本  |                                                     | https://ja.aliexpress.com/item/32948978177.html              | 100本で85円($0.76)    |
 | M2スペーサー オス-メス スペーサー長3mm | 4個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 50個で95円($0.85)     |
 | M2ナット                               | 4個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 100個で65円($0.59)    |
-| M2スペーサー メス-メス スペーサー長5mm | 2個  |                                                     | https://ja.aliexpress.com/item/33022872348.html              | 50個で95円($0.87)     |
+| M2スペーサー メス-メス スペーサー長5mm | 2個  |                                                     | https://ja.aliexpress.com/item/33026719584.html              | 50個で95円($0.87)     |
 | 計                                     |      |                                                     |                                                              | 1,675円               |
 
 ### トッププレートの取り付け
